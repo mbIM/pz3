@@ -88,7 +88,7 @@ namespace num1
             Console.WriteLine("\nОтсортированный массив:");
             PrintArray(bum);
 
-            Console.WriteLine("\nВведите четные для суммы четных");
+            Console.WriteLine("\nВведите какие числа вам нужно сложить:");
             String str = Console.ReadLine();
             Boolean isEven = GetIsEven(str);
             int sum = isEven ? CalculateEvensSum(bum) : CalculateOddsSum(bum);
